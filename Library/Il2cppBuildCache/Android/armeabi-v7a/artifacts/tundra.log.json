@@ -1,0 +1,3 @@
+{"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
+{"msg":"newNode","annotation":"Il2Cpp C:/Users/User/Desktop/COMP397/COMP397-Assignment2-part2/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so","index":1}
+{"msg":"noderesult","annotation":"Il2Cpp C:/Users/User/Desktop/COMP397/COMP397-Assignment2-part2/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so","index":1,"exitcode":0}

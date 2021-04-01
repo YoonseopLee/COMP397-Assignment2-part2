@@ -1,0 +1,30 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":242814828647, "dur":2571, "ph":"X", "name": "DriverCheckDagSignatures",  "args": { "durationMS":3, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":242814831219, "dur":42897, "ph":"X", "name": "DriverInitData",  "args": { "durationMS":43, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":242814874321, "dur":41, "ph":"X", "name": "Tundra",  "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":242814874371, "dur":29309, "ph":"X", "name": "Tundra",  "args": { "durationMS":29, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":242814914212, "dur":921, "ph":"X", "name": "Tundra",  "args": { "durationMS":1, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":243111210427, "dur":11041, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":11, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":243111222161, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":243111222825, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":243111223523, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":243111224175, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":0, "ts":243111224183, "dur":35106, "ph":"X", "name": "Tundra",  "args": { "durationMS":35, "detail":"Write AllBuiltNodes" }}
+,{ "pid":1, "tid":1, "ts":242814915065, "dur":77, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":242814915146, "dur":289534, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":290, "detail":"Il2Cpp C:/Users/User/Desktop/COMP397/COMP397-Assignment2-part2/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so" }}
+,{ "pid":1, "tid":1, "ts":242815414419, "dur":295795890, "ph":"X", "name": "Il2Cpp",  "args": { "durationMS":295796, "detail":"C:/Users/User/Desktop/COMP397/COMP397-Assignment2-part2/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so" }}
+,{ "pid":1, "tid":1, "ts":243111210399, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "durationMS":0, "detail":"all_tundra_nodes" }}
+,{ "pid":1, "tid":1, "ts":243111210406, "dur":24, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":0, "detail":"" }}
+,{ "pid":1, "tid":1, "ts":243111210430, "dur":10904, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":2, "ts":242814915898, "dur":296294543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":296295, "detail":"" }}
+,{ "pid":1, "tid":2, "ts":243111210441, "dur":10755, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":3, "ts":242814915963, "dur":296294486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":296294, "detail":"" }}
+,{ "pid":1, "tid":3, "ts":243111210450, "dur":10615, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+,{ "pid":1, "tid":4, "ts":242814916015, "dur":296294419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "durationMS":296294, "detail":"" }}
+,{ "pid":1, "tid":4, "ts":243111210435, "dur":10830, "ph":"X", "name": "Exiting",  "args": { "durationMS":11, "detail":"BuildLoop" }}
+
+]
+}
